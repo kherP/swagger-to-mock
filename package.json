@@ -1,7 +1,7 @@
 {
-  "name": "swagger-to-mock",
+  "name": "swagger-to-mock-swagger-2",
   "version": "0.1.12",
-  "description": "mock data generator from Swagger (OpenAPI 3)",
+  "description": "mock data generator from Swagger (Swagger 2/ OpenAPI 3)",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
@@ -23,12 +23,9 @@
   "author": "yayoc <n.yayoshi@gmail.com> (http://yayoc.com)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yayoc/swagger-to-mock.git"
+    "url": "git+https://github.com/kherP/swagger-to-mock.git"
   },
-  "bugs": {
-    "url": "https://github.com/yayoc/swagger-to-mock/issues"
-  },
-  "homepage": "https://github.com/yayoc/swagger-to-mock#readme",
+  "homepage": "https://github.com/kherP/swagger-to-mock.git#readme",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^23.1.1",
