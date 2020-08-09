@@ -1,6 +1,6 @@
 {
-  "name": "swagger-to-mock-v2",
-  "version": "0.0.1",
+  "name": "swagger-to-mock-swagger2",
+  "version": "1.0.0",
   "description": "extended from yayoc/swagger-to-mock. mock data generator from Swagger (Swagger 2/ OpenAPI 3)",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -32,7 +32,7 @@
     "@types/node": "^13.1.0",
     "jest": "^23.1.0",
     "ts-jest": "^25.1.0",
-    "typescript": "^2.9.2"
+    "typescript": "^3.7.5"
   },
   "jest": {
     "transform": {
