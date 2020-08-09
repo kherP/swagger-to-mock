@@ -14,12 +14,13 @@ export const extractResponses = (obj: OpenAPIObject): ResponsesType => {
     const methods: PathItemObject = obj.paths[path];
     Object.keys(methods).forEach((method: string) => {
       const api = methods[method];
-      const { responses } = api;
+      const { responses, operationId } = api;
+      const mainKey = operationId || `${path}_${method}`;
+      ret[mainKey] = {}
       Object.keys(responses).forEach((statusCode: string) => {
         const response = responses[statusCode];
         const { content } = response;
-        const key = `${path}_${method}_${statusCode}`;
-        ret[key] = content;
+        ret[mainKey][statusCode] = content || response;
       });
     });
   });
