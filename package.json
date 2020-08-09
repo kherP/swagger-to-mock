@@ -1,7 +1,7 @@
 {
-  "name": "swagger-to-mock-swagger-2",
-  "version": "0.1.12",
-  "description": "mock data generator from Swagger (Swagger 2/ OpenAPI 3)",
+  "name": "swagger-to-mock-2",
+  "version": "0.0.1",
+  "description": "extended from yayoc/swagger-to-mock. mock data generator from Swagger (Swagger 2/ OpenAPI 3)",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
