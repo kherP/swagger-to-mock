@@ -1,6 +1,6 @@
 # swagger-to-mock [![travis-ci](https://travis-ci.org/yayoc/swagger-to-mock.svg?branch=master)](https://travis-ci.org/yayoc/swagger-to-mock) [![Greenkeeper badge](https://badges.greenkeeper.io/yayoc/swagger-to-mock.svg)](https://greenkeeper.io/)
 
-Mock data generator CLI for Swagger3 (OpenAPI 3)
+Fork from yayoc/swagger-to-mock. Mock data generator CLI for Swagger3/2 (OpenAPI 3)
 
 ## Install
 
